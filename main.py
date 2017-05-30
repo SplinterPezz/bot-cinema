@@ -12,3 +12,4 @@ URL='https://api.telegram.org/bot' + Hook['env']['parrot_bot_key'] + '/sendMessa
 
 # invio indietro alla chat ID il messaggio ricevuto
 richiesta=requests.get(URL,verify=False,data={'chat_id':chatID,'text':testo})
+
